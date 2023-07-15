@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs_on: ubuntu-latest
+    steps:
+      - name: Printing greeting
+        run: echo " Hello this is pardeep kumar from ropar, punjab. "
+      - name: Printing GoodBye
+        run: echo " Saying goodbye to pardeep Ji. "
